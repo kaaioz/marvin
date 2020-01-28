@@ -1,8 +1,3 @@
 function penultimo(palavra){
- return ("Kaio".substring(3, 2)); 
+    return palavra.substr(-2, 1)
 }
-
-
-
-
-
