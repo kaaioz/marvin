@@ -1,4 +1,4 @@
-function finais(palavra) {
- return palavra.substring(9, 13); 
+function finais (palavra) {
+const palavras = palavra;
+return palavra.substring(palavra.length -3)
 }
-
