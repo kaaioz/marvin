@@ -1,7 +1,15 @@
-function entreNumeros(min, max){
- var c = min 
- while(c<= max){
-console.log(c)     
- c++
-}
+function ateZero(numero){
+    var n = 0
+    if (numero>0){
+    while(n <= numero) {
+    console.log(n)
+    n++
+   }
 } 
+    if(numero<=0){
+    while(n>=numero){
+        console.log(numero)
+    numero++    
+    }    
+    }
+}
