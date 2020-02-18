@@ -1,4 +1,3 @@
 function penultimo(array){
-    var p = array;
-    return (p.slice(-2, -1)).toString()
+    return array[array.length -2]
 }
