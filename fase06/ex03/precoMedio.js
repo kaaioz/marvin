@@ -17,3 +17,4 @@ function precoMedio(){
    
     return med/arguments.length;
 }
+ 
